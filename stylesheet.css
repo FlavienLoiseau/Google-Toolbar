@@ -1,0 +1,99 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #222;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+.top_link
+{
+    padding-right: 2%;
+}
+.login
+{
+    margin-right: 2%;
+    color: #fff;
+    font-weight: bold;
+    background: #4386f8;
+    padding: 7px 15px;
+    border-radius: 2px; 
+}
+.google_logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar
+{
+    display: flex;
+    justify-content: center;
+}
+.searchbar.form
+{
+    width: 80%;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+}
+
+.last_footer
+{
+    display: flex;
+}
+.footer-left
+{
+    display: flex;
+}
+.footer-left ul
+{
+    display: flex;
+    margin: 2%;
+}
+
+.footer-right
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-right ul
+{
+    display: flex;
+    margin: 2%;
+}
